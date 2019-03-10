@@ -15,6 +15,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "fullstack": "github:psadeck/FullStack",
     "mongodb": "^3.1.13",
     "npm-git-install": "^0.3.0"
   },
@@ -22,7 +23,18 @@
     "nodemon": "^1.18.10"
   },
   "gitDependencies": {
-    "private-package-name": "git@private.git.server:psadeck/FullStack",
-    "public-package-name": "https://github.com/psadeck/FullStack"
-  }
+    "private-fullstack": "git@private.git.server:psadeck/FullStack",
+    "public-fullstack": "https://github.com/psadeck/FullStack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psadeck/FullStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psadeck/FullStack/issues"
+  },
+  "engines": {
+    "node": "10.15.0"    
+  },
+  "homepage": "https://github.com/psadeck/FullStack#readme"
 }
