@@ -1,39 +1,21 @@
 {
-  "name": "fullstack",
+  "name": "fullstack_vue_express",
   "version": "1.0.0",
-  "description": "Full Stack vue and express app",
+  "description": "Full stack vue and express app",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "nodemon server/index.js",
-    "install": "npm-git install"
+    "dev": "nodemon server/index.js"
   },
-  "author": "Pete Sadeck",
-  "license": "ISC",
+  "author": "Peter Sadeck",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "fullstack": "github:psadeck/FullStack",
-    "mongodb": "^3.1.13",
-    "npm-git-install": "^0.3.0"
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
-  },
-  "gitDependencies": {    
-    "FullStack": "https://github.com/psadeck/FullStack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/psadeck/FullStack.git"
-  },
-  "bugs": {
-    "url": "https://github.com/psadeck/FullStack/issues"
-  },
-  "engines": {
-    "node": "10.15.0"    
-  },
-  "homepage": "https://github.com/psadeck/FullStack#readme"
+    "nodemon": "^1.18.4"
+  }
 }
