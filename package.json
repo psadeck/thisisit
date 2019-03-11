@@ -22,9 +22,8 @@
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
-  "gitDependencies": {
-    "private-fullstack": "git@private.git.server:psadeck/FullStack",
-    "public-fullstack": "https://github.com/psadeck/FullStack"
+  "gitDependencies": {    
+    "FullStack": "https://github.com/psadeck/FullStack"
   },
   "repository": {
     "type": "git",
